@@ -38,8 +38,6 @@ This is still involves manual intervention, but repeated-tasks are automated.
 - You have to keep the browser window in foreground so that browser does not make it sleep, which will pause the flow.
 - Once you have deleted the posts you can delete the comments similarly.
 
-**DONT DELETE THE USER ITSELF SO THAT YOU CAN VERIFY LATER IF REDDIT `UN-DELETED` YOUR CONTENT LIKE MENTIUONED IN VIDEO**
-
 ## Limitations:
 - This code is very janky and kind of like first draft.
 - This is entirely dependent on the classnames for various elements on reddit.
