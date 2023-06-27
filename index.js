@@ -11,6 +11,7 @@ get_items = async (func, count = 1) => {
       items = func();
       window.scrollTo(0, document.body.scrollHeight);
       await sleep(500);
+      loop_count += 1;
     }
     resolve(items);
   });
