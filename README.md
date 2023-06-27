@@ -17,6 +17,12 @@ This is still involves manual intervention, but repeated-tasks are automated.
 6. Paste in the browser dev-tools console.
 7. Press enter.
 
+## IMPROVEMENT:
+- Just created another script `for_comments.js` specifically for comments, as people usually have more comments.
+- This will keep on getting new comments and delete old ones automatically.
+- **problem is it doesnt stop automatically, so once you see that all the comments are gone, you can reload the page manually to stop the script.**
+- Didn't get to try on posts as I had already deleted my posts with main script `index.js`.
+
 ## Flow:
 1. This script loads all the `more` menu buttons.
 2. Then it tries to load more (upto 200) by scrolling down.
